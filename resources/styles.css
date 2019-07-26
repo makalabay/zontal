@@ -133,3 +133,104 @@
   font-size: 120;
   y: 100%;
 }
+
+.icon {
+  width: 32;
+  height: 32;
+  x: 0;
+  y: 15;
+}
+
+.bg-stripe {
+  fill: #505050;
+  width: 100%;
+  x: 0;
+}
+
+#bg-stripe-1 {
+  height: 20%;
+  y: 0;
+}
+
+#bg-stripe-2 {
+  height: 13%;
+  y: 25%;
+}
+
+#bg-stripe-3 {
+  height: 5%;
+  y: 40%;
+}
+
+#bg-stripe-4 {
+  height: 3%;
+  y: 65%;
+}
+
+#bg-stripe-5 {
+  height: 30%;
+  y: 80%;
+}
+
+#bg-solid {
+  width: 142%;
+  height: 71%;
+  x: 0;
+  y: 0;
+}
+
+#content-upper {
+  width: 95%;
+  height: 50%;
+  x: 0%;
+  y: 0%;
+  font-family: Tungsten-Medium;
+  font-size: 35;
+  display: inline;
+}
+
+#icon-steps {
+  x: 25%;
+}
+
+#icon-hr {
+  x: 75%;
+}
+
+#steps {
+  width: 35%;
+  height: 30%;
+  text-anchor: start;
+  x: 40%;
+  y: 28%;
+}
+
+#hr {
+  width: 25%;
+  height: 30%;
+  text-anchor: end;
+  text-length: 3;
+  x: 100%;
+  y: 28%;
+}
+
+#content-lower {
+  width: 75%;
+  height: 50%;
+  x: 5%;
+  y: 45%;
+}
+
+#date {
+  font-family: Tungsten-Medium;
+  font-size: 35;
+  opacity: 0.5;
+  text-length: 8;
+  y: 35%;
+}
+
+#time {
+  font-family: Tungsten-Medium;
+  font-size: 120;
+  y: 100%;
+}
