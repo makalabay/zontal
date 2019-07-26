@@ -1,0 +1,56 @@
+<svg class="screen">
+  <svg id="bg">
+    <svg>
+      <rect id="bg-stripe-1" class="bg-stripe"/>
+      <rect id="bg-stripe-2" class="bg-stripe"/>
+      <rect id="bg-stripe-3" class="bg-stripe"/>
+      <rect id="bg-stripe-4" class="bg-stripe"/>
+      <rect id="bg-stripe-5" class="bg-stripe"/>
+    </svg>
+    <g transform="rotate(45)">
+      <rect id="bg-solid" class="fill-dark"/>
+    </g>
+  </svg>
+<!--   <rect id="test-border" fill="blue" width="90%" height="90%" x="5%" y="5%"/> -->
+  <svg id="content-upper" class="fill-white">
+    <text id="steps">STEPS</text>
+    <text id="hr">HR</text>
+    <svg id="icon-steps" class="container-icon">
+      <image class="icon" href="stat_steps_solid_32px.png"/>
+    </svg>
+    <svg id="icon-hr" class="container-icon">
+      <image class="icon" href="stat_hr_solid_32px.png"/>
+    </svg>
+  </svg>
+  <svg id="content-lower" class="fill-white">
+    <text id="date">DATE</text>
+    <text id="time">00:00</text>
+  </svg>
+</svg>
+
+<!-- <svg class="screen">
+  <svg class="container">
+    <svg id="header">
+      <svg id="container-steps">
+        <svg class="container-icon">
+          <image class="icon" href="stat_steps_solid_32px.png"/>
+        </svg>
+        <text id="steps">STEPS</text>
+      </svg>
+      <svg id="container-hr">
+        <text id="hr" class="anchor-right">HR</text>
+        <svg id="icon-hr" class="container-icon">
+          <image class="icon" href="stat_hr_solid_32px.png"/>
+        </svg>
+      </svg>
+    </svg>
+    <svg id="body">
+      <circle id="circle" cx="50%" cy="50%" r="80" fill="white"/>
+      <circle cx="50%" cy="50%" r="75" fill="black"/>
+      <text id="time">00:00</text>
+    </svg>
+    <svg id="footer">
+      <text id="date">DATE</text>
+    </svg>
+  </svg>
+</svg> -->

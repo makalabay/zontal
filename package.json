@@ -1,0 +1,28 @@
+{
+  "fitbit": {
+    "appUUID": "245fab8f-589c-4a36-9105-e40bd05ea70b",
+    "appType": "clockface",
+    "appDisplayName": "BULLY",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity",
+      "run_background"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini"
+    ],
+    "i18n": {
+      "en": {
+        "name": "BULLY"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.1.0"
+  }
+}
